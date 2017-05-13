@@ -4,9 +4,12 @@
   * Updated:
     -
 
-## Types Description:
+### Description:
 Library of Reusable GraphQL Schema Types.
-  * Mutations
+
+
+## Mutations
+Mutation types.
     1. _Product_    
       - _availableQtys_ Describes the available quantities of a product.
       - _enum_ General Enumeration type for products.
@@ -21,6 +24,8 @@ Library of Reusable GraphQL Schema Types.
       - _permissions_ Describes the users permissions.
       - _userStory_ Describes the users back story/bio.
 
+## Query
+Query types.
 
 <!-- ## Utilities Description:
 Utility files with setup, configuration, and special use case templates.
