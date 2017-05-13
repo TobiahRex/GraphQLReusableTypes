@@ -4,7 +4,7 @@
   * Updated:
     -
 
-### Description:
+# Description:
 Library of Reusable GraphQL Schema Types.
 
 
