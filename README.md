@@ -14,6 +14,7 @@ Library of Reusable GraphQL Schema Types.
       - _inventoryDates_ Describes important dates about the products inventory.
       - _routeTag_ Describes the route that will be used as the products client side route.
       - _vendor_ Describes the Products manufacturer.
+
     2. _User_
       - _authenticationInfo_ Describes the users auth info. e.g. **Last Login**.
       - _contactInfo_ Describes an object with users contact information.
