@@ -12,17 +12,17 @@ Library of Reusable GraphQL Schema Types.
 Mutation types.
 
   1. _Product_    
-    - _availableQtys_ Describes the available quantities of a product.
-    - _enum_ General Enumeration type for products.
-    - _images_ Describes an array of images.  Each image is an object with several props.
-    - _inventoryDates_ Describes important dates about the products inventory.
-    - _routeTag_ Describes the route that will be used as the products client side route.
-    - _vendor_ Describes the Products manufacturer.
+    - _availableQtys_ : Describes the available quantities of a product.
+    - _enum_ : General Enumeration type for products.
+    - _images_ : Describes an array of images.  Each image is an object with several props.
+    - _inventoryDates_ : Describes important dates about the products inventory.
+    - _routeTag_ : Describes the route that will be used as the products client side route.
+    - _vendor_ : Describes the Products manufacturer.
   2. _User_
-    - _authenticationInfo_ Describes the users auth info. e.g. **Last Login**.
-    - _contactInfo_ Describes an object with users contact information.
-    - _permissions_ Describes the users permissions.
-    - _userStory_ Describes the users back story/bio.
+    - _authenticationInfo_ : Describes the users auth info. e.g. **Last Login**.
+    - _contactInfo_ : Describes an object with users contact information.
+    - _permissions_ : Describes the users permissions.
+    - _userStory_ : Describes the users back story/bio.
 
 ## Query
 Query types.
