@@ -1,9 +1,12 @@
 permissions: {
+  description: 'Authorization permissions granted for user.',
   type: new ObjectType({
     name: 'UserPermissionsObject',
-    description: 'Permissions granted for user.',
     fields: () => ({
-      role: { type: StringType },
+      role: {
+        description: 'The authorization role for this user.',
+        type: StringType,
+      },
     }),
   }),
 },

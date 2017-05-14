@@ -1,11 +1,20 @@
 userStory: {
+  description: 'Object: Bio information for new user.',
   type: new ObjectType({
-    name: 'UserStoryObject',
-    description: 'Bio information for user.',
+    name: 'UserInputStoryObject',
     fields: () => ({
-      age: { type: IntType },
-      birthday: { type: StringType },
-      bio: { type: StringType },
+      age: {
+        description: 'The age of this new user.',
+        type: IntType,
+      },
+      birthday: {
+        description: 'The birthday of this new user.',
+        type: StringType,
+      },
+      bio: {
+        description: 'The biography of this new user.',
+        type: StringType,
+      },
     }),
   }),
 },
