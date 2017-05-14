@@ -1,14 +1,12 @@
 images: {
-  name: 'NewProductImages',
   description: 'Images array for the new Product.',
   type: new ListType(
-    new InputObject({
-      name: 'NewProductImageObject',
-      description: 'Product image information',
-      fields: {
+    new ObjectType({
+      name: 'ProductImageObject',
+      fields: () => ({
         purpose: { type: StringType },
         url: { type: StringType },
-      },
+      }),
     }),
   ),
 },

@@ -1,9 +1,8 @@
 quantities: {
-  name: 'NewProductStockQuantities',
   description: 'Availability stats for this product.',
   type: new ObjectType({
-    name: 'NewProductQuantityInfo',
-    fields: {
+    name: 'ProductQuantityInfo',
+    fields: () => ({
       available: {
         description: 'The available quanitty for this product.',
         type: IntType,
@@ -12,6 +11,6 @@ quantities: {
         description: 'The quantity for products currently in customers\' carts.',
         type: IntType,
       },
-    },
+    }),
   }),
 },

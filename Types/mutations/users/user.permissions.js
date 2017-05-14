@@ -1,10 +1,13 @@
 permissions: {
-  description: 'Object: Permissions granted for user.',
+  description: 'Authorization permissions for this new user.',
   type: new NonNull(
     new InputObject({
-      name: 'UserInputPermissionsObject',
+      name: 'NewUserInputPermissionsObject',
       fields: () => ({
-        role: { type: StringType },
+        role: {
+          description: 'Authorization role for this new user.',
+          type: StringType,
+        },
       }),
     }),
   ),

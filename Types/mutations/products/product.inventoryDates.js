@@ -1,6 +1,5 @@
 dates: {
-  name: 'NewProductImportantDateInformation',
-  description: 'Important dates regarding the product.',
+  description: 'Important clerical dates regarding the new product.',
   type: new NonNull(
     new InputObject({
       name: 'NewProductDateObject',

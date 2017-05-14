@@ -28,16 +28,22 @@ Mutation types: Uses INPUT GraphQL syntax.
 Query types: Uses OUTPUT GraphQL syntax.
 
   1. _Product_    
+    - _id_ : Describes the mongo id for a product.
     - _images_ : Describes an array of images.  Each image is an object with several props.
     - _inventoryDates_ : Describes important dates about the products inventory.
-    - _enum_ : General Enumeration type for products - this case is **nicotine_strengths**.
+    - _mainTitle_ : Describes the "Category" or "Main Title" for the product - displayed on a Single Product page.
+    - _nicotineStrengths_ : General Enumeration type for products - this case is **nicotine_strengths**.
     - _rootType_ : Root of the ProductType.  All other fields should be placed within this type.
+    - _routeTag_ : Describes the specific route for the product.
     - _sizes_ : Describes the enumerable sizes for the product.
     - _stockQtys_ : Describes the available quantities of a product.
+    - _vendor_ : Describes the manufacturer for the product.
   2. _User_
     - _authenticationInfo_ : Describes the users auth info. e.g. **Last Login**.
-    - _contactInfo_ : Describes an object with users contact information.
-    - _permissions_ : Describes the users permissions.
+    - _contactInfo_ : Describes the Contact info & GeoLocation data for a user.
+    - _id_ : Describes the mongo id for a user.
+    - _name_ : Describes the First & Last name for a user.
+    - _permissions_ : Describes the users authorization permissions.
     - _rootType_ : Root of the UserType.  All other fields should be placed within this type.
     - _userStory_ : Describes the users back story/bio.
 

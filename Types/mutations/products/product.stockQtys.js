@@ -1,6 +1,5 @@
 quantities: {
-  name: 'NewProductStockQuantities',
-  description: 'Availability stats for this product.',
+  description: 'Availability stats for this new product.',
   type: new InputObject({
     name: 'NewProductQuantityInfo',
     fields: {

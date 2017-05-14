@@ -1,5 +1,4 @@
 routeTag: {
-  name: 'NewProductRouteTag',
-  description: 'The name of the route for the product.',
+  description: 'The name of the route for the new product.',
   type: new NonNull(StringType),
 },

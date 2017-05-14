@@ -1,8 +1,7 @@
 nicotine_strengths: {
-  name: 'ProductNicotineStrengths',
   description: 'The nicotine strength for the Product.',
   type: new EnumType({
-    name: 'NewProductNicotineStrengthsEnum',
+    name: 'ProductNicotineStrengthsEnum',
     values: {
       2: {
         value: 2,
